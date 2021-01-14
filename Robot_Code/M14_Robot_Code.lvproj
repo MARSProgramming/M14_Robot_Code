@@ -33,8 +33,47 @@
 				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="WPI_SolenoidValue.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl"/>
+				<Item Name="WPI_DriverStationRobotMode2.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationRobotMode2.ctl"/>
+				<Item Name="WPI_CameraImageSize.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraImageSize.ctl"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Drive_Begin.vi" Type="VI" URL="../Subsystems/Drive/Drive_Begin.vi"/>
+			<Item Name="Drive_Cluster.ctl" Type="VI" URL="../Subsystems/Drive/Drive_Cluster.ctl"/>
+			<Item Name="Drive_States.ctl" Type="VI" URL="../Subsystems/Drive/Drive_States.ctl"/>
+			<Item Name="Drive_Globals.vi" Type="VI" URL="../Subsystems/Drive/Drive_Globals.vi"/>
+			<Item Name="Basic_Motor_Modes.ctl" Type="VI" URL="../Utility_VIs/Basic_Motor_Modes.ctl"/>
+			<Item Name="Turret_Begin.vi" Type="VI" URL="../Subsystems/Turret/Turret_Begin.vi"/>
+			<Item Name="Turret_Cluster.ctl" Type="VI" URL="../Subsystems/Turret/Turret_Cluster.ctl"/>
+			<Item Name="Turret_States.ctl" Type="VI" URL="../Subsystems/Turret/Turret_States.ctl"/>
+			<Item Name="Turret_Globals.vi" Type="VI" URL="../Subsystems/Turret/Turret_Globals.vi"/>
+			<Item Name="Flywheel_Begin.vi" Type="VI" URL="../Subsystems/Flywheel/Flywheel_Begin.vi"/>
+			<Item Name="Flywheel_Cluster.ctl" Type="VI" URL="../Subsystems/Flywheel/Flywheel_Cluster.ctl"/>
+			<Item Name="Flywheel_States.ctl" Type="VI" URL="../Subsystems/Flywheel/Flywheel_States.ctl"/>
+			<Item Name="Flywheel_Globals.vi" Type="VI" URL="../Subsystems/Flywheel/Flywheel_Globals.vi"/>
+			<Item Name="Cowl_Begin.vi" Type="VI" URL="../Subsystems/Cowl/Cowl_Begin.vi"/>
+			<Item Name="Cowl_Cluster.ctl" Type="VI" URL="../Subsystems/Cowl/Cowl_Cluster.ctl"/>
+			<Item Name="Cowl_States.ctl" Type="VI" URL="../Subsystems/Cowl/Cowl_States.ctl"/>
+			<Item Name="Cowl_Globals.vi" Type="VI" URL="../Subsystems/Cowl/Cowl_Globals.vi"/>
+			<Item Name="New_Magazine_Begin.vi" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Begin.vi"/>
+			<Item Name="New_Magazine_Cluster.ctl" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Cluster.ctl"/>
+			<Item Name="New_Magazine_Control_States.ctl" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Control_States.ctl"/>
+			<Item Name="New_Magazine_Globals.vi" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Globals.vi"/>
+			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+			<Item Name="Drive_Set.vi" Type="VI" URL="../Subsystems/Drive/Drive_Set.vi"/>
+			<Item Name="PID.vi" Type="VI" URL="../Utility_VIs/PID.vi"/>
+			<Item Name="Timeout.vi" Type="VI" URL="../Auto/Auto Utilities/Timeout.vi"/>
+			<Item Name="Command_Turn_To_Heading_Simplevi.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turn_To_Heading_Simplevi.vi"/>
+			<Item Name="Command_Execution_State.ctl" Type="VI" URL="../Auto/Auto Utilities/Command_Execution_State.ctl"/>
+			<Item Name="Command Drive Distance.vi" Type="VI" URL="../Auto/Auto Commands/Command Drive Distance.vi"/>
+			<Item Name="Set - Reset.vi" Type="VI" URL="../Utility_VIs/Set - Reset.vi"/>
+			<Item Name="Differential_Drive_Kinematics.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics.vi"/>
+			<Item Name="Drive_Execute.vi" Type="VI" URL="../Subsystems/Drive/Drive_Execute.vi"/>
+			<Item Name="Sensor_Values.vi" Type="VI" URL="../Subsystems/Sensing/Sensor_Values.vi"/>
+			<Item Name="Command_Turret_AutoTarget.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turret_AutoTarget.vi"/>
+			<Item Name="Command_Turret_MoveToPosition.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turret_MoveToPosition.vi"/>
+			<Item Name="Turret_Execute.vi" Type="VI" URL="../Subsystems/Turret/Turret_Execute.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -569,9 +608,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Basic_Motor_Modes.ctl" Type="VI" URL="../Subsystems/Utility_VIs/Basic_Motor_Modes.ctl"/>
 			<Item Name="Basic_Motor_Modes.ctl" Type="VI" URL="../Utility_VIs/Basic_Motor_Modes.ctl"/>
 			<Item Name="Command Drive Distance.vi" Type="VI" URL="../Auto/Auto Commands/Command Drive Distance.vi"/>
+			<Item Name="Command_Execution_State.ctl" Type="VI" URL="../Auto/Auto Utilities/Command_Execution_State.ctl"/>
 			<Item Name="Command_Flywheel_SpinUp.vi" Type="VI" URL="../Auto/Auto Commands/Command_Flywheel_SpinUp.vi"/>
 			<Item Name="Command_Intake.vi" Type="VI" URL="../Auto/Auto Commands/Command_Intake.vi"/>
 			<Item Name="Command_Turn_To_Heading_Simplevi.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turn_To_Heading_Simplevi.vi"/>
@@ -600,9 +639,9 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PID.vi" Type="VI" URL="../Utility_VIs/PID.vi"/>
-			<Item Name="Sensor_Values.vi" Type="VI" URL="../Globals/Sensor_Values.vi"/>
 			<Item Name="Set - Reset.vi" Type="VI" URL="../Utility_VIs/Set - Reset.vi"/>
 			<Item Name="Solenoid Globals.vi" Type="VI" URL="../Globals/Solenoid Globals.vi"/>
+			<Item Name="Timeout.vi" Type="VI" URL="../Auto/Auto Utilities/Timeout.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
