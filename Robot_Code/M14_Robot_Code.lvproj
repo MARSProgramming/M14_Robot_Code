@@ -74,6 +74,14 @@
 			<Item Name="Command_Turret_AutoTarget.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turret_AutoTarget.vi"/>
 			<Item Name="Command_Turret_MoveToPosition.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turret_MoveToPosition.vi"/>
 			<Item Name="Turret_Execute.vi" Type="VI" URL="../Subsystems/Turret/Turret_Execute.vi"/>
+			<Item Name="Flywheel_Execute.vi" Type="VI" URL="../Subsystems/Flywheel/Flywheel_Execute.vi"/>
+			<Item Name="Command_Flywheel_SpinUp.vi" Type="VI" URL="../Auto/Auto Commands/Command_Flywheel_SpinUp.vi"/>
+			<Item Name="Interpolate_ArrayTable.vi" Type="VI" URL="../Utility_VIs/Interpolate_ArrayTable.vi"/>
+			<Item Name="Flywheel_Set.vi" Type="VI" URL="../Subsystems/Flywheel/Flywheel_Set.vi"/>
+			<Item Name="Cowl_Set.vi" Type="VI" URL="../Subsystems/Cowl/Cowl_Set.vi"/>
+			<Item Name="Cowl_Execute.vi" Type="VI" URL="../Subsystems/Cowl/Cowl_Execute.vi"/>
+			<Item Name="New_Magazine_Execute.vi" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Execute.vi"/>
+			<Item Name="New_Magazine_Set.vi" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Set.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -338,7 +346,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Sequence.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Sequence.ctl"/>
 				<Item Name="Spark MAX Control Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/Typedef/Spark MAX Control Type.ctl"/>
-				<Item Name="Spark MAX Set Closed Loop Ramp Rate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Public/Spark MAX Set Closed Loop Ramp Rate.vi"/>
 				<Item Name="Spark MAX Set Output Advanced.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Public/Spark MAX Set Output Advanced.vi"/>
 				<Item Name="spi_bus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spi_bus.ctl"/>
 				<Item Name="String Matches Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/String Matches Pattern.vi"/>
@@ -616,7 +623,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Command_Turn_To_Heading_Simplevi.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turn_To_Heading_Simplevi.vi"/>
 			<Item Name="Command_Turret_AutoTarget.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turret_AutoTarget.vi"/>
 			<Item Name="Command_Turret_MoveToPosition.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turret_MoveToPosition.vi"/>
-			<Item Name="Dash_Globals.vi" Type="VI" URL="../Globals/Dash_Globals.vi"/>
 			<Item Name="Differential_Drive_Kinematics.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
