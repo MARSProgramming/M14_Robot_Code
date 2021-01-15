@@ -82,6 +82,13 @@
 			<Item Name="Cowl_Execute.vi" Type="VI" URL="../Subsystems/Cowl/Cowl_Execute.vi"/>
 			<Item Name="New_Magazine_Execute.vi" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Execute.vi"/>
 			<Item Name="New_Magazine_Set.vi" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Set.vi"/>
+			<Item Name="Joystick_Controls.ctl" Type="VI" URL="../Utility_VIs/Joystick_Controls.ctl"/>
+			<Item Name="Create_Deadband.vi" Type="VI" URL="../Utility_VIs/Create_Deadband.vi"/>
+			<Item Name="Drive_Teleop.vi" Type="VI" URL="../Subsystems/Drive/Drive_Teleop.vi"/>
+			<Item Name="Turret_Teleop.vi" Type="VI" URL="../Subsystems/Turret/Turret_Teleop.vi"/>
+			<Item Name="Flywheel_Teleop.vi" Type="VI" URL="../Subsystems/Flywheel/Flywheel_Teleop.vi"/>
+			<Item Name="Map_2Buttons_To_Throttle.vi" Type="VI" URL="../Utility_VIs/Map_2Buttons_To_Throttle.vi"/>
+			<Item Name="New_Magazine_Teleop.vi" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Teleop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -229,7 +236,7 @@ AddOutputFilter chunkFilter
 				<Item Name="dPWM Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/dPWM/dPWM Update Ops.ctl"/>
 				<Item Name="dPWM_PanelSim_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/dPWM/dPWM_PanelSim_Global.vi"/>
 				<Item Name="DriverLib.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Controls/DriverLib.ctl"/>
-				<Item Name="DS Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Typedefs/DS Update Ops.ctl"/>
+				<Item Name="DS Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DriverStation/DS Update Ops.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Field Data Manager.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data Manager.vi"/>
 				<Item Name="Field Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data.ctl"/>
@@ -616,6 +623,13 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
 			<Item Name="Basic_Motor_Modes.ctl" Type="VI" URL="../Utility_VIs/Basic_Motor_Modes.ctl"/>
+			<Item Name="Climb_Elevator_Cluster.ctl" Type="VI" URL="../Subsystems/Subsystems/Climb/Climb_Elevator/Climb_Elevator_Cluster.ctl"/>
+			<Item Name="Climb_Elevator_Control_States.ctl" Type="VI" URL="../Subsystems/Subsystems/Climb/Climb_Elevator/Climb_Elevator_Control_States.ctl"/>
+			<Item Name="Climb_Globals.vi" Type="VI" URL="../Subsystems/Globals/Climb_Globals.vi"/>
+			<Item Name="Climb_Pivot_Cluster.ctl" Type="VI" URL="../Subsystems/Subsystems/Climb/Climb_Pivot/Climb_Pivot_Cluster.ctl"/>
+			<Item Name="Climb_Pivot_Control_States.ctl" Type="VI" URL="../Subsystems/Subsystems/Climb/Climb_Pivot/Climb_Pivot_Control_States.ctl"/>
+			<Item Name="Climb_Transverse_Cluster.ctl" Type="VI" URL="../Subsystems/Subsystems/Climb/Climb_Transverse/Climb_Transverse_Cluster.ctl"/>
+			<Item Name="Climb_Transverse_Control_States.ctl" Type="VI" URL="../Subsystems/Subsystems/Climb/Climb_Transverse/Climb_Transverse_Control_States.ctl"/>
 			<Item Name="Command Drive Distance.vi" Type="VI" URL="../Auto/Auto Commands/Command Drive Distance.vi"/>
 			<Item Name="Command_Execution_State.ctl" Type="VI" URL="../Auto/Auto Utilities/Command_Execution_State.ctl"/>
 			<Item Name="Command_Flywheel_SpinUp.vi" Type="VI" URL="../Auto/Auto Commands/Command_Flywheel_SpinUp.vi"/>
@@ -623,14 +637,24 @@ AddOutputFilter chunkFilter
 			<Item Name="Command_Turn_To_Heading_Simplevi.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turn_To_Heading_Simplevi.vi"/>
 			<Item Name="Command_Turret_AutoTarget.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turret_AutoTarget.vi"/>
 			<Item Name="Command_Turret_MoveToPosition.vi" Type="VI" URL="../Auto/Auto Commands/Command_Turret_MoveToPosition.vi"/>
+			<Item Name="Control_Panel_Cluster.ctl" Type="VI" URL="../Subsystems/Subsystems/Control_Panel/Control_Panel_Cluster.ctl"/>
+			<Item Name="Control_Panel_Globals.vi" Type="VI" URL="../Subsystems/Globals/Control_Panel_Globals.vi"/>
+			<Item Name="Control_Panel_States.ctl" Type="VI" URL="../Subsystems/Subsystems/Control_Panel/Control_Panel_States.ctl"/>
+			<Item Name="Create_Deadband.vi" Type="VI" URL="../Subsystems/Utility_VIs/Create_Deadband.vi"/>
+			<Item Name="Create_Deadband.vi" Type="VI" URL="../Utility_VIs/Create_Deadband.vi"/>
 			<Item Name="Differential_Drive_Kinematics.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Intake_Cluster.ctl" Type="VI" URL="../Subsystems/Subsystems/Intake/Intake_Cluster.ctl"/>
+			<Item Name="Intake_Globals.vi" Type="VI" URL="../Subsystems/Globals/Intake_Globals.vi"/>
+			<Item Name="Intake_States.ctl" Type="VI" URL="../Subsystems/Subsystems/Intake/Intake_States.ctl"/>
 			<Item Name="Interpolate_ArrayTable.vi" Type="VI" URL="../Utility_VIs/Interpolate_ArrayTable.vi"/>
+			<Item Name="Joystick_Controls.ctl" Type="VI" URL="../Subsystems/Utility_VIs/Joystick_Controls.ctl"/>
 			<Item Name="Joystick_Controls.ctl" Type="VI" URL="../Utility_VIs/Joystick_Controls.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Magazine_Globals.vi" Type="VI" URL="../Globals/Magazine_Globals.vi"/>
+			<Item Name="Map_2Buttons_To_Throttle.vi" Type="VI" URL="../Subsystems/Utility_VIs/Map_2Buttons_To_Throttle.vi"/>
 			<Item Name="Map_2Buttons_To_Throttle.vi" Type="VI" URL="../Utility_VIs/Map_2Buttons_To_Throttle.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -648,6 +672,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Set - Reset.vi" Type="VI" URL="../Utility_VIs/Set - Reset.vi"/>
 			<Item Name="Solenoid Globals.vi" Type="VI" URL="../Globals/Solenoid Globals.vi"/>
 			<Item Name="Timeout.vi" Type="VI" URL="../Auto/Auto Utilities/Timeout.vi"/>
+			<Item Name="Toggle.vi" Type="VI" URL="../Subsystems/Utility_VIs/Toggle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
