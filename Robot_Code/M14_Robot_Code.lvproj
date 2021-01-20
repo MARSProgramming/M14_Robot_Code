@@ -89,6 +89,14 @@
 			<Item Name="Flywheel_Teleop.vi" Type="VI" URL="../Subsystems/Flywheel/Flywheel_Teleop.vi"/>
 			<Item Name="Map_2Buttons_To_Throttle.vi" Type="VI" URL="../Utility_VIs/Map_2Buttons_To_Throttle.vi"/>
 			<Item Name="New_Magazine_Teleop.vi" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Teleop.vi"/>
+			<Item Name="Intake_Begin.vi" Type="VI" URL="../Subsystems/Intake/Intake_Begin.vi"/>
+			<Item Name="Intake_Cluster.ctl" Type="VI" URL="../Subsystems/Intake/Intake_Cluster.ctl"/>
+			<Item Name="Intake_States.ctl" Type="VI" URL="../Subsystems/Intake/Intake_States.ctl"/>
+			<Item Name="Intake_Globals.vi" Type="VI" URL="../Subsystems/Intake/Intake_Globals.vi"/>
+			<Item Name="Intake_Set.vi" Type="VI" URL="../Subsystems/Intake/Intake_Set.vi"/>
+			<Item Name="Intake_Execute.vi" Type="VI" URL="../Subsystems/Intake/Intake_Execute.vi"/>
+			<Item Name="Command_Intake.vi" Type="VI" URL="../Auto/Auto Commands/Command_Intake.vi"/>
+			<Item Name="PID.vi" Type="VI" URL="../Simulation/Simulation Utilities/PID.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
