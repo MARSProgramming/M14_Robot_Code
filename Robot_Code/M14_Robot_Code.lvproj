@@ -122,6 +122,7 @@
 			<Item Name="Spindexer_Globals.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Globals.vi"/>
 			<Item Name="Spindexer_Set.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Set.vi"/>
 			<Item Name="Spindexer_Execute.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Execute.vi"/>
+			<Item Name="Spindexer_Begin.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Begin.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
