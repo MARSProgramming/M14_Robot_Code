@@ -39,6 +39,15 @@
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="WPI_DriverStationRobotMode2.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationRobotMode2.ctl"/>
+				<Item Name="WPI_JoystickArcadeMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickArcadeMapping.vi"/>
+				<Item Name="WPI_JoystickButtonSpinMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickButtonSpinMapping.vi"/>
+				<Item Name="WPI_JoystickMecanumCartesianMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMecanumCartesianMapping.vi"/>
+				<Item Name="WPI_RobotDriveNormalize 4.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveNormalize 4.vi"/>
+				<Item Name="WPI_RobotDriveRotateVector.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRotateVector.vi"/>
+				<Item Name="WPI_JoystickMecanumPolarMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMecanumPolarMapping.vi"/>
+				<Item Name="WPI_JoystickRatioCurveMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRatioCurveMapping.vi"/>
+				<Item Name="WPI_JoystickTankMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickTankMapping.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Drive_Begin.vi" Type="VI" URL="../Subsystems/Drive/Drive_Begin.vi"/>
@@ -98,16 +107,6 @@
 			<Item Name="Command_Intake.vi" Type="VI" URL="../Auto/Auto Commands/Command_Intake.vi"/>
 			<Item Name="PID.vi" Type="VI" URL="../Utility_VIs/PID.vi"/>
 			<Item Name="Create_Deadband.vi" Type="VI" URL="../Utility_VIs/Create_Deadband.vi"/>
-			<Item Name="WPI_DriverStationRobotMode2.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/DriverStation/WPI_DriverStationRobotMode2.ctl"/>
-			<Item Name="WPI_JoystickMapping.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Joystick/WPI_JoystickMapping.vi"/>
-			<Item Name="WPI_JoystickArcadeMapping.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Joystick/WPI_JoystickArcadeMapping.vi"/>
-			<Item Name="WPI_JoystickButtonSpinMapping.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Joystick/WPI_JoystickButtonSpinMapping.vi"/>
-			<Item Name="WPI_JoystickMecanumCartesianMapping.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Joystick/WPI_JoystickMecanumCartesianMapping.vi"/>
-			<Item Name="WPI_RobotDriveNormalize 4.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveNormalize 4.vi"/>
-			<Item Name="WPI_RobotDriveRotateVector.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRotateVector.vi"/>
-			<Item Name="WPI_JoystickMecanumPolarMapping.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Joystick/WPI_JoystickMecanumPolarMapping.vi"/>
-			<Item Name="WPI_JoystickRatioCurveMapping.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Joystick/WPI_JoystickRatioCurveMapping.vi"/>
-			<Item Name="WPI_JoystickTankMapping.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Joystick/WPI_JoystickTankMapping.vi"/>
 			<Item Name="String_to_Array.vi" Type="VI" URL="../Auto/Auto Utilities/String_to_Array.vi"/>
 			<Item Name="Autonomous_Parse.vi" Type="VI" URL="../Auto/Auto Utilities/Autonomous_Parse.vi"/>
 			<Item Name="RobotSubsystemsCluster.ctl" Type="VI" URL="../Auto/RobotSubsystemsCluster.ctl"/>
@@ -123,12 +122,15 @@
 			<Item Name="Spindexer_Set.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Set.vi"/>
 			<Item Name="Spindexer_Execute.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Execute.vi"/>
 			<Item Name="Spindexer_Begin.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Begin.vi"/>
+			<Item Name="WPI_DriverStationRobotMode2.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/DriverStation/WPI_DriverStationRobotMode2.ctl"/>
+			<Item Name="WPI_JoystickMapping.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Joystick/WPI_JoystickMapping.vi"/>
+			<Item Name="WPI_JoystickArcadeMapping.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/Joystick/WPI_JoystickArcadeMapping.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">roboRIO-2614-FRC.local</Property>
+		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
