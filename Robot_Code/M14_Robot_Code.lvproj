@@ -314,7 +314,7 @@ AddOutputFilter chunkFilter
 				<Item Name="dPWM Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/dPWM/dPWM Update Ops.ctl"/>
 				<Item Name="dPWM_PanelSim_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/dPWM/dPWM_PanelSim_Global.vi"/>
 				<Item Name="DriverLib.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Controls/DriverLib.ctl"/>
-				<Item Name="DS Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DriverStation/DS Update Ops.ctl"/>
+				<Item Name="DS Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Typedefs/DS Update Ops.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Field Data Manager.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data Manager.vi"/>
 				<Item Name="Field Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data.ctl"/>
@@ -726,6 +726,8 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="AutoFeedForwardConversion.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/AutoFeedForwardConversion.vi"/>
+			<Item Name="autoninfo.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/autoninfo.vi"/>
 			<Item Name="Basic_Motor_Modes.ctl" Type="VI" URL="../Utility_VIs/Basic_Motor_Modes.ctl"/>
 			<Item Name="Climb_Control_Type.ctl" Type="VI" URL="../Subsytems/Climb/Climb_Control_Type.ctl"/>
 			<Item Name="Climb_Notifier.ctl" Type="VI" URL="../Subsytems/Climb/Climb_Notifier.ctl"/>
@@ -734,6 +736,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Drive Globals.vi" Type="VI" URL="../Drive/Drive Globals.vi"/>
 			<Item Name="Drive_Control_Type.ctl" Type="VI" URL="../Subsytems/Drive/Drive_Control_Type.ctl"/>
 			<Item Name="Drive_Notifier.ctl" Type="VI" URL="../Subsytems/Drive/Drive_Notifier.ctl"/>
+			<Item Name="dsinstructions.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/dsinstructions.vi"/>
 			<Item Name="Elevator_Control_Type.ctl" Type="VI" URL="../Subsytems/Elevator/Elevator_Control_Type.ctl"/>
 			<Item Name="Elevator_Enum_States.ctl" Type="VI" URL="../Subsytems/Elevator/Elevator_Enum_States.ctl"/>
 			<Item Name="Elevator_Notifier.ctl" Type="VI" URL="../Subsytems/Elevator/Elevator_Notifier.ctl"/>
@@ -770,6 +773,7 @@ AddOutputFilter chunkFilter
 			<Item Name="PID.vi" Type="VI" URL="../Utility_VIs/PID.vi"/>
 			<Item Name="Refnum Names.vi" Type="VI" URL="../Utility VIs/Refnum Names.vi"/>
 			<Item Name="RPM to Native Units.vi" Type="VI" URL="../Utility VIs/RPM to Native Units.vi"/>
+			<Item Name="sensors.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/sensors.vi"/>
 			<Item Name="Set - Reset.vi" Type="VI" URL="../Utility_VIs/Set - Reset.vi"/>
 			<Item Name="Solenoid Globals.vi" Type="VI" URL="../Globals/Solenoid Globals.vi"/>
 			<Item Name="Toggle.vi" Type="VI" URL="../Subsystems/Utility_VIs/Toggle.vi"/>
