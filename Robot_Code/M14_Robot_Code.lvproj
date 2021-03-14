@@ -124,6 +124,12 @@
 			<Item Name="Spindexer_Execute.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Execute.vi"/>
 			<Item Name="Spindexer_Begin.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Begin.vi"/>
 			<Item Name="WPI_DriverStationRobotMode2.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/DriverStation/WPI_DriverStationRobotMode2.ctl"/>
+			<Item Name="Command_Follow_Path.vi" Type="VI" URL="../Auto/Auto Commands/Command_Follow_Path.vi"/>
+			<Item Name="DrivePath.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/DrivePath.vi"/>
+			<Item Name="Timer.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/Timer.vi"/>
+			<Item Name="ReadCSV.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/ReadCSV.vi"/>
+			<Item Name="PathSearch.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/PathSearch.vi"/>
+			<Item Name="AngularDistance.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/AngularDistance.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
