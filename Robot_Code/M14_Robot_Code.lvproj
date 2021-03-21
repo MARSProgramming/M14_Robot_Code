@@ -128,6 +128,7 @@
 			<Item Name="PathSearch.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/PathSearch.vi"/>
 			<Item Name="AngularDistance.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/AngularDistance.vi"/>
 			<Item Name="Differential_Drive_Kinematics_Speed_In.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Speed_In.vi"/>
+			<Item Name="Add_Vectors_R_Theta.vi" Type="VI" URL="../Utility_VIs/Add_Vectors_R_Theta.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -237,6 +238,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="Add_Vectors_R_Theta.vi" Type="VI" URL="../Utility_VIs/Add_Vectors_R_Theta.vi"/>
 		<Item Name="Differential_Drive_Kinematics_Speed_In.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Speed_In.vi"/>
 		<Item Name="DriveRawToPosition&amp;Velocity.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/DriveRawToPosition&amp;Velocity.vi"/>
 		<Item Name="Joystick_Globals.vi" Type="VI" URL="../Joystick_Globals.vi"/>
