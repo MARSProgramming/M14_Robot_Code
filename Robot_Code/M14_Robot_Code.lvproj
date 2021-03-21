@@ -120,7 +120,6 @@
 			<Item Name="Spindexer_Set.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Set.vi"/>
 			<Item Name="Spindexer_Execute.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Execute.vi"/>
 			<Item Name="Spindexer_Begin.vi" Type="VI" URL="../Subsystems/Spindexer/Spindexer_Begin.vi"/>
-			<Item Name="WPI_DriverStationRobotMode2.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/Targets/NI/RT/vi.lib/Rock Robotics/WPI/DriverStation/WPI_DriverStationRobotMode2.ctl"/>
 			<Item Name="Command_Follow_Path.vi" Type="VI" URL="../Auto/Auto Commands/Command_Follow_Path.vi"/>
 			<Item Name="DrivePath.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/DrivePath.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/Timer.vi"/>
@@ -128,6 +127,7 @@
 			<Item Name="PathSearch.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/PathSearch.vi"/>
 			<Item Name="AngularDistance.vi" Type="VI" URL="../Auto/Auto Utilities/PathPlanning(4265 based)/AngularDistance.vi"/>
 			<Item Name="Differential_Drive_Kinematics_Speed_In.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Speed_In.vi"/>
+			<Item Name="Differential_Drive_Kinematics_Curvature_Control.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Curvature_Control.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -822,7 +822,6 @@ AddOutputFilter chunkFilter
 			<Item Name="RPM to Native Units.vi" Type="VI" URL="../Utility VIs/RPM to Native Units.vi"/>
 			<Item Name="Set - Reset.vi" Type="VI" URL="../Utility_VIs/Set - Reset.vi"/>
 			<Item Name="Solenoid Globals.vi" Type="VI" URL="../Globals/Solenoid Globals.vi"/>
-			<Item Name="Toggle.vi" Type="VI" URL="../Subsystems/Utility_VIs/Toggle.vi"/>
 			<Item Name="Toggle.vi" Type="VI" URL="../Utility_VIs/Toggle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -841,7 +840,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
