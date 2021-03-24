@@ -243,7 +243,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Joystick_Globals.vi" Type="VI" URL="../Joystick_Globals.vi"/>
 		<Item Name="Map_2Buttons_To_Throttle_Multi_Power.vi" Type="VI" URL="../Utility_VIs/Map_2Buttons_To_Throttle_Multi_Power.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Sensor_Reads.vi" Type="VI" URL="../Sensor_Reads.vi"/>
 		<Item Name="SparkMAXPositionToDegrees.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/SparkMAXPositionToDegrees.vi"/>
 		<Item Name="SpindexerPositionToRotations.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/SpindexerPositionToRotations.vi"/>
 		<Item Name="TalonSRXVelocityToRPM.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/TalonSRXVelocityToRPM.vi"/>
@@ -777,11 +776,13 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
 			<Item Name="2d_pose_estimation_euler_integral.vi" Type="VI" URL="../Simulation/Simulation Utilities/2d_pose_estimation_euler_integral.vi"/>
+			<Item Name="Add_Vectors_R_Theta.vi" Type="VI" URL="../Utility_VIs/Add_Vectors_R_Theta.vi"/>
 			<Item Name="Basic_Motor_Modes.ctl" Type="VI" URL="../Utility_VIs/Basic_Motor_Modes.ctl"/>
 			<Item Name="Climb_Control_Type.ctl" Type="VI" URL="../Subsytems/Climb/Climb_Control_Type.ctl"/>
 			<Item Name="Climb_Notifier.ctl" Type="VI" URL="../Subsytems/Climb/Climb_Notifier.ctl"/>
 			<Item Name="Create_Deadband.vi" Type="VI" URL="../Utility_VIs/Create_Deadband.vi"/>
 			<Item Name="Differential_Drive_Kinematics.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics.vi"/>
+			<Item Name="Differential_Drive_Kinematics_Curvature_Control.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Curvature_Control.vi"/>
 			<Item Name="Drive Globals.vi" Type="VI" URL="../Drive/Drive Globals.vi"/>
 			<Item Name="Drive_Control_Type.ctl" Type="VI" URL="../Subsytems/Drive/Drive_Control_Type.ctl"/>
 			<Item Name="Drive_Notifier.ctl" Type="VI" URL="../Subsytems/Drive/Drive_Notifier.ctl"/>
@@ -840,7 +841,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
