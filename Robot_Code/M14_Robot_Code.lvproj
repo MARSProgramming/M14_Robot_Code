@@ -129,6 +129,9 @@
 			<Item Name="Differential_Drive_Kinematics_Speed_In.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Speed_In.vi"/>
 			<Item Name="Add_Vectors_R_Theta.vi" Type="VI" URL="../Utility_VIs/Add_Vectors_R_Theta.vi"/>
 			<Item Name="Differential_Drive_Kinematics_Curvature_Control.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Curvature_Control.vi"/>
+			<Item Name="Command_Auto_Intaking.vi" Type="VI" URL="../Auto/Auto Commands/Command_Auto_Intaking.vi"/>
+			<Item Name="WheelFeetToRotations.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/WheelFeetToRotations.vi"/>
+			<Item Name="Command_Curvature_Distance.vi" Type="VI" URL="../Auto/Auto Commands/Command_Curvature_Distance.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -238,6 +241,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="Differential_Drive_Kinematics_Curvature_Control_Curvature_In.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Curvature_Control_Curvature_In.vi"/>
 		<Item Name="Differential_Drive_Kinematics_Speed_In.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Speed_In.vi"/>
 		<Item Name="DriveRawToPosition&amp;Velocity.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/DriveRawToPosition&amp;Velocity.vi"/>
 		<Item Name="Joystick_Globals.vi" Type="VI" URL="../Joystick_Globals.vi"/>
@@ -246,6 +250,7 @@ AddOutputFilter chunkFilter
 		<Item Name="SparkMAXPositionToDegrees.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/SparkMAXPositionToDegrees.vi"/>
 		<Item Name="SpindexerPositionToRotations.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/SpindexerPositionToRotations.vi"/>
 		<Item Name="TalonSRXVelocityToRPM.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/TalonSRXVelocityToRPM.vi"/>
+		<Item Name="WheelFeetToRotations.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/WheelFeetToRotations.vi"/>
 		<Item Name="WheelRotationsToFeet.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/WheelRotationsToFeet.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -354,7 +359,7 @@ AddOutputFilter chunkFilter
 				<Item Name="dPWM Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/dPWM/dPWM Update Ops.ctl"/>
 				<Item Name="dPWM_PanelSim_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/dPWM/dPWM_PanelSim_Global.vi"/>
 				<Item Name="DriverLib.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Controls/DriverLib.ctl"/>
-				<Item Name="DS Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DriverStation/DS Update Ops.ctl"/>
+				<Item Name="DS Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Typedefs/DS Update Ops.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Field Data Manager.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data Manager.vi"/>
 				<Item Name="Field Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data.ctl"/>
