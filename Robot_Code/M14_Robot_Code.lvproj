@@ -132,6 +132,7 @@
 			<Item Name="Command_Auto_Intaking.vi" Type="VI" URL="../Auto/Auto Commands/Command_Auto_Intaking.vi"/>
 			<Item Name="WheelFeetToRotations.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/WheelFeetToRotations.vi"/>
 			<Item Name="Command_Curvature_Distance.vi" Type="VI" URL="../Auto/Auto Commands/Command_Curvature_Distance.vi"/>
+			<Item Name="Differential_Drive_Kinematics_Curvature_Control_Curvature_In.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Curvature_Control_Curvature_In.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
