@@ -98,7 +98,7 @@
 			<Item Name="Turret_Teleop.vi" Type="VI" URL="../Subsystems/Turret/Turret_Teleop.vi"/>
 			<Item Name="Flywheel_Teleop.vi" Type="VI" URL="../Subsystems/Flywheel/Flywheel_Teleop.vi"/>
 			<Item Name="Map_2Buttons_To_Throttle.vi" Type="VI" URL="../Utility_VIs/Map_2Buttons_To_Throttle.vi"/>
-			<Item Name="New_Magazine_Teleop.vi" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Teleop.vi"/>
+			<Item Name="New_Magazine_Test.vi" Type="VI" URL="../Subsystems/New Magazine/New_Magazine_Test.vi"/>
 			<Item Name="Intake_Begin.vi" Type="VI" URL="../Subsystems/Intake/Intake_Begin.vi"/>
 			<Item Name="Intake_Cluster.ctl" Type="VI" URL="../Subsystems/Intake/Intake_Cluster.ctl"/>
 			<Item Name="Intake_States.ctl" Type="VI" URL="../Subsystems/Intake/Intake_States.ctl"/>
@@ -133,6 +133,7 @@
 			<Item Name="WheelFeetToRotations.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/WheelFeetToRotations.vi"/>
 			<Item Name="Command_Curvature_Distance.vi" Type="VI" URL="../Auto/Auto Commands/Command_Curvature_Distance.vi"/>
 			<Item Name="Differential_Drive_Kinematics_Curvature_Control_Curvature_In.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Curvature_Control_Curvature_In.vi"/>
+			<Item Name="Toggle.vi" Type="VI" URL="../Utility_VIs/Toggle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -291,7 +292,6 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Set.vi"/>
-				<Item Name="CTRE_Phoenix_MotorControl_SetInverted.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_SetInverted.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetInverted_TalonFX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_SetInverted_TalonFX.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetNeutralMode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_SetNeutralMode.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi"/>
