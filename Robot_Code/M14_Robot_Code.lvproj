@@ -135,6 +135,7 @@
 			<Item Name="Differential_Drive_Kinematics_Curvature_Control_Curvature_In.vi" Type="VI" URL="../Utility_VIs/Differential_Drive_Kinematics_Curvature_Control_Curvature_In.vi"/>
 			<Item Name="Toggle.vi" Type="VI" URL="../Utility_VIs/Toggle.vi"/>
 			<Item Name="FalconRPMtoNative100ms.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/FalconRPMtoNative100ms.vi"/>
+			<Item Name="TalonSRXRPMtoNative100ms.vi" Type="VI" URL="../Utility_VIs/Unit Conversions/TalonSRXRPMtoNative100ms.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
