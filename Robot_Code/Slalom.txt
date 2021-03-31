@@ -1,0 +1,17 @@
+Slalom
+{
+Drive.CurvatureDistance(0,0.7,.3,5,False);
+Drive.RadiusDistance(20,2,.3,10,False);
+Drive.CurvatureDistance(0,2,.3,5,False);
+Drive.RadiusDistance(-20,1.9,.3,10,False);
+Drive.CurvatureDistance(0,10.6,.3,5,False);
+Drive.RadiusDistance(-20,2,.3,10,False);
+Drive.CurvatureDistance(0,1.7,.3,10,False);
+Drive.RadiusDistance(26,13,.3,10,False);
+Drive.CurvatureDistance(0,2,.3,10,False);
+Drive.RadiusDistance(-20,2,.3,10,False);
+Drive.CurvatureDistance(0,10.6,.3,5,False);
+Drive.RadiusDistance(-20,2,.3,10,False);
+Drive.CurvatureDistance(0,2,.3,5,False);
+Drive.RadiusDistance(20,1.9,.3,10,False);
+}
