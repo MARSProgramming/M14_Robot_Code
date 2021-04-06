@@ -1,0 +1,5 @@
+Auto_Intake
+{
+Drive.Auto_Intake(15,0,50,0,True);
+Intake.RunIntake(1,50,True);
+}

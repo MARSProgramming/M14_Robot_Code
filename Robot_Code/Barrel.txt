@@ -1,0 +1,10 @@
+Barrel
+{
+Drive.CurvatureDistance(0,7.5,.3,5,False);
+Drive.RadiusDistance(-27,14.8,.4,5,False);
+Drive.CurvatureDistance(0,6.5,.5,5,False);
+Drive.RadiusDistance(27,12.8,.5,5,False);
+Drive.CurvatureDistance(0,6.5,.5,5,False);
+Drive.RadiusDistance(27,10.5,.5,5,False);
+Drive.CurvatureDistance(0,5.5,.5,5,False);
+}

@@ -1,0 +1,15 @@
+Bounce
+{
+Drive.CurvatureDistance(0,0.7,.3,5,False);
+Drive.RadiusDistance(18,2.8,.4,10,False);
+Drive.CurvatureDistance(0,0.4,0.3,10,False);
+Drive.CurvatureDistance(0,5.3,-0.5,10,False);
+Drive.RadiusDistance(-24,6,-0.3,10,False);
+Drive.CurvatureDistance(0,4.5,-0.5,10,False);
+Drive.CurvatureDistance(0,4.3,0.5,10,False);
+Drive.RadiusDistance(30,4.7,0.3,10,False);
+Drive.CurvatureDistance(0,2,0.3,10,False);
+Drive.RadiusDistance(20,2.5,0.3,10,False);
+Drive.CurvatureDistance(0,6,0.5,10,False);
+Drive.RadiusDistance(-35,3.5,-0.3,10,False);
+}
