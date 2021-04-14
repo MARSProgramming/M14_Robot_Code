@@ -1,0 +1,26 @@
+Slalom
+{
+/**Initial S maneuver**/
+Drive.CurvatureDistance(0,0.7,.3,5,False);
+Drive.RadiusDistance(20,2,.3,10,False);
+Drive.CurvatureDistance(0,2,.3,5,False);
+Drive.RadiusDistance(-20,1.9,.3,10,False);
+
+/**Driving Down Long**/
+Drive.CurvatureDistance(0,10.3,.3,5,False);
+Drive.RadiusDistance(-25,3,.3,10,False);
+/**Drive.CurvatureDistance(0,1,.3,10,False);**/
+
+/**Turning around Hairpin **/
+Drive.RadiusDistance(26,14.5,.3,10,False);
+Drive.CurvatureDistance(0,1.3,.3,10,False);
+Drive.RadiusDistance(-20,2.3,.3,10,False);
+
+/**Driving Back**/
+Drive.CurvatureDistance(0,10.6,.3,5,False);
+
+/** Final S maneuver**/
+Drive.RadiusDistance(-20,2,.3,10,False);
+Drive.CurvatureDistance(0,3,.3,5,False);
+Drive.RadiusDistance(20,1.9,.3,10,False);
+}
